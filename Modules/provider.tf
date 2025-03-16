@@ -22,11 +22,11 @@ terraform {
   }
 
   backend "remote" {
-    hostname     = "my.scalr.io"  # Your Scalr hostname
-    organization = "your-org-name"
+    hostname     = "venkatesh0608.scalr.io"  # Your Scalr hostname
+    organization = "venkatesh0608"
 
     workspaces {
-      name = "your-workspace-name"
+      name = "test-environment"
     }
   }
 }
