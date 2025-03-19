@@ -43,5 +43,5 @@ variable "sg_http_out" {
 variable "private_key_out" {
   description = "Key_Pair"
   type = string  
-  default = "vgs_mumbai"
+  #default = "vgs_mumbai"
 }
